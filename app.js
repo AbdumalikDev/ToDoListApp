@@ -11,6 +11,7 @@ app.use(express.static("public"));
 // Database
 mongoose.connect(
   "mongodb+srv://admin-abdumalik:Test123@cluster0.ejdox.mongodb.net/todolistDB",
+  // "mongodb://localhost:27017/todolistDB",
   {
     useUnifiedTopology: true,
     useNewUrlParser: true,
